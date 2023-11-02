@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD Operations</h1>
+    
+    <input type="text" placeholder="Name" id="name" >
+    <input type="text" placeholder="quantityPerUnit" id="quantity">
+    <input type="text" placeholder="unitPrice" id="price">
+    <input type="text" placeholder="unitsInStock" id="stock">
+
+    <button id="create">Create</button>
+<!-- show only stock -->
+
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>quantityPerUnit</th>
+            <th>unitPrice</th>
+            <th>unitsInStock</th> 
+            <th>Modify</th> 
+        </thead>
+        <tbody id="tbody">
+           
+        </tbody>
+    </table>
+    <div >
+        <ul class="pages">
+            
+        </ul>
+    </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
